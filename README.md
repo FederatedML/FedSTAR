@@ -37,3 +37,11 @@ If you use this repository, please consider citing:
 	journal = {ACM Trans. Embed. Comput. Syst.},
 	month = {feb},
 }</pre>
+
+
+<pre>@INPROCEEDINGS{9746356,
+  author={Tsouvalas, Vasileios and Saeed, Aaqib and Ozcelebi, Tanir},
+  booktitle={ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Federated Self-Training for Data-Efficient Audio Recognition}, 
+  year={2022},
+  doi={10.1109/ICASSP43922.2022.9746356}}</pre>
