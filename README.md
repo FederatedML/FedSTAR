@@ -1,4 +1,4 @@
-# FedSTAR: Self-Training for Semi-Supervised Audio Recognition
+# FedSTAR: Federated Self-Training for Semi-Supervised Audio Recognition
 
 ![Overview](./images/fedstar.png)
 
