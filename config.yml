@@ -1,0 +1,25 @@
+server:
+  GPU_MEMORY_SIZE: 1024
+  NUM_CLIENTS_PER_ROUND: 2
+  FEDERATED_ROUNDS: 2
+  EVALUATION_STEP: 1
+  LOCAL_TRAIN_STEP: 1
+
+clients:
+  GPU_MEMORY_SIZE: 1280
+
+dataset:
+  DATA_DIR : ./datasets/speech_commands
+  LABELLED_PER : 0.05
+  UNLABELED_PER : 1.0
+
+global:
+  SERVER_ADDRESS: '[::]:10001'
+  SEED: 2021
+  FEDSTAR: false
+  C_DIST: false
+  NUM_CLIENTS: 5
+
+model:
+  LR: 0.001
+  BATCH_SIZE: 64
